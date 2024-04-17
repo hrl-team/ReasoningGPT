@@ -1,0 +1,3 @@
+[submodule "lanlab"]
+	path = lanlab
+	url = https://github.com/Nicolas-Yax/lanlab
