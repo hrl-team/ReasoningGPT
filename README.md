@@ -64,7 +64,8 @@ DATAFRAME 1: dataLogSCORES
 - ID         : chr  "1DV" "1DV" "1DV" "1DV" ... ---> Participant ID numeration
 - Model      : Factor w/ 15 levels "BLOOM","CDV2",..: 3 3 3 3 3 3 3 3 3 3 ...  ---> Model identifier
 - Condition  : chr  "Baseline" "Baseline" "Baseline" "Baseline" ... ---> Condition identifier
-- Question   : chr  "A scarf costs 210€ more than a hat. The scarf and the hat cost 220€ in total. How much does the hat cost?" "How long would it take 80 carpenters to repair 80 tables, if it takes 8 carpenters 8 hours to repair 8 tables?" "An entire forest was consumed by a wildfire in 40 hours, with its size doubling every hour. How long did it tak"| __truncated__ "If Andrea can clean a house in 3 hours, and Alex can clean a house in 6 hours, how many hours would it take for"| __truncated__ ... ---> Content of item
+- Question   : chr  "A scarf costs 210€ more than a hat. The scarf and the hat cost 220€ in total. How much does the hat cost?" "How long would it take 80 carpenters to repair 80 tables, if it takes 8 carpenters 8 hours to repair 8 tables?" "An entire forest was consumed by a
+wildfire in 40 hours, with its size doubling every hour. How long did it take to burn 50% of the forest?" "If Andrea can clean a house in 3 hours, and Alex can clean a house in 6 hours, how many hours would it take for them to clean a house together?" ... ---> Content of item
 - IdxQuestion: num  0 1 2 3 4 5 6 0 1 2 ... ---> Index of CRT questions.
 - Answer     : chr  "110€\n\n" " 8 hours.\n\n" "The fire burned half the forest in 82 hours.\n\n\n\n" "4 hours\n\n" ...  ---> Content of answer
 - Label      : chr  "other" "correct" "other" "other" ... ---> Category of answer
