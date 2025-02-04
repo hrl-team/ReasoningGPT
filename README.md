@@ -3,6 +3,8 @@
 This repository contains relevant information for replicating figures in the paper "Improving reasoning in Humans and Machines".
 https://www.nature.com/articles/s44271-024-00091-8
 
+This repository is in 2 parts : the data acquisition pipeline (python) and the data analysis pipeline (R). Each part is presented below :
+
 ## Plot & Analysis script (in R)
 ##By subcomarc
 
@@ -90,4 +92,11 @@ wildfire in 40 hours, with its size doubling every hour. How long did it take to
 
 ## Data acquisition pipeline (in Python)
 
-Coming soon !
+The data acquisition pipeline is included in the lanlab2 submodule. To download the module after cloning the repository you can run the following commands :
+
+```bash
+git submodule init
+git submodule update
+```
+
+The README file in the submodule explain how the module lanlab works and gives 2 notebooks that collect the data used in our experiments. These notebook propose a simple visualization of the results but the figures of the paper are obtained with the R pipeline presented above.
